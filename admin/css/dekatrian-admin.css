@@ -1,0 +1,68 @@
+table.page_type,
+table.redirect_type {
+    display: none;
+}
+
+table.page_type.active,
+table.redirect_type.active {
+    display: table;
+}
+
+textarea {
+    font-family: monospace;
+}
+
+/* Tabs module */
+.dekatrian form .section {
+    display: none;
+}
+
+.dekatrian form .section.active {
+    display: block;
+}
+
+.dekatrian .date-time-text{
+	display: inline-block;
+    min-width: 17em;
+}
+
+.dekatrian label {
+    line-height: 1.4em;
+    display: inline-block;
+    margin: .25em 0 .5em!important;
+}
+
+.dekatrian pre{
+	margin-bottom: 22px;
+    font-family: Consolas, Monaco, "Courier New", Courier, monospace;
+    font-size: 12px;
+    font-weight: inherit;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap !important;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+
+    background: #f3f3f7;
+    border: 1px solid #dedee3;
+    padding: 11px;
+    overflow: auto;
+}
+
+.dekatrian .spinner {
+    float: none;
+    margin: 0 3px;
+}
+
+.dekatrian .header{    
+    background-color: #000;
+    text-align: center;
+    line-height: 0;
+    margin: 1em 0;
+}
+
+.dekatrian .header img{
+    width: 100%;
+    max-width: fit-content;
+}
